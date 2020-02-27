@@ -1,0 +1,6 @@
+projectKey=com.athena:parent
+serverUrl=http://172.27.30.14:9000
+serverVersion=7.0.0.36138
+dashboardUrl=http://172.27.30.14:9000/dashboard/index/com.athena:parent
+ceTaskId=AXCHDblmx_h9WzImBojg
+ceTaskUrl=http://172.27.30.14:9000/api/ce/task?id=AXCHDblmx_h9WzImBojg
