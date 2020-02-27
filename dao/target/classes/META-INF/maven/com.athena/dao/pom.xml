@@ -7,20 +7,14 @@
     <artifactId>parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
-  
   <groupId>com.athena</groupId>
-  <artifactId>model</artifactId>
+  <artifactId>dao</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>model</name>
+  <name>dao</name>
   <url>http://maven.apache.org</url>
-  
-  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -29,7 +23,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
   <build>
   	<plugins>
   		<plugin>
@@ -43,5 +36,4 @@
       </plugin>
   	</plugins>
   </build>
-  
 </project>
