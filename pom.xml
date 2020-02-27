@@ -11,4 +11,55 @@
     <module>service</module>
     <module>dao</module>
   </modules>
+  
+  
+  <profiles>
+        <profile>
+            <id>SonarPlugins</id>
+            <activation>
+
+                <file>
+                    <exists>./sonar-project.properties</exists>
+                </file>
+            </activation>
+            <properties>
+                <!--common and repo-->
+                <sonar.analyse.type></sonar.analyse.type>
+                <sonar.login.token></sonar.login.token>
+                <!--Pr-->
+                <pr.current.branch></pr.current.branch>
+                <pr.base.branch></pr.base.branch>
+                <pr.key></pr.key>
+                <github.repo.slug></github.repo.slug>
+                <!--branch-->
+                <current.branch></current.branch>
+                <target.branch></target.branch>
+
+            </properties>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>1.6.0</version>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <executions>
+                            <execution>
+                                <id>Running sonar analysis</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>bash</executable>
+                                    <commandlineArgs>./build-script/sonar.sh ${sonar.analyse.type} ${sonar.login.token}
+                                        ${pr.current.branch} ${pr.base.branch} ${pr.key} ${github.repo.slug}
+                                        ${current.branch} ${target.branch}</commandlineArgs>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
