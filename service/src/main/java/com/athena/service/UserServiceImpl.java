@@ -4,7 +4,7 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public void getInfo(int id) {
-		// TODO Auto-generated method stub
+	System.out.println("This is for getting the User info");
 
 	}
 
