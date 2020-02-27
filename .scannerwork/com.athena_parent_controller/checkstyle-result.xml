@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.27">
-<file name="/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/controller/src/main/java/org/controller/App.java">
+<file name="/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/controller/src/main/java/com/athena/controller/App.java">
 </file>
-<file name="/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/controller/src/main/java/org/controller/UserController.java">
+<file name="/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/controller/src/main/java/com/athena/controller/UserController.java">
 </file>
 </checkstyle>
