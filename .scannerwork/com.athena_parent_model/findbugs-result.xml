@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="3.1.12" sequence="0" timestamp="1582816777000" analysisTimestamp="1582816874154" release="">
+<BugCollection version="3.1.12" sequence="0" timestamp="1582820487000" analysisTimestamp="1582820570539" release="">
   <Project>
     <Jar>/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/model/target/classes/com/athena/model/User.class</Jar>
     <AuxClasspathEntry>/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/model/target/classes</AuxClasspathEntry>
@@ -9,15 +9,14 @@
     <WrkDir>/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/.scannerwork/com.athena_parent_model</WrkDir>
   </Project>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Thu, 27 Feb 2020 20:49:37 +0530" total_classes="1" referenced_classes="10" total_bugs="0" total_size="18" num_packages="1" java_version="1.8.0_242" vm_version="25.242-b08" cpu_seconds="0.73" clock_seconds="0.24" peak_mbytes="483.19" alloc_mbytes="1748.00" gc_seconds="0.03">
+  <FindBugsSummary timestamp="Thu, 27 Feb 2020 21:51:27 +0530" total_classes="1" referenced_classes="10" total_bugs="0" total_size="18" num_packages="1" java_version="1.8.0_242" vm_version="25.242-b08" cpu_seconds="0.66" clock_seconds="0.21" peak_mbytes="423.39" alloc_mbytes="1748.00" gc_seconds="0.00">
     <FileStats path="com/athena/model/User.java" bugCount="0" size="18"/>
     <PackageStats package="com.athena.model" total_bugs="0" total_types="1" total_size="18">
       <ClassStats class="com.athena.model.User" sourceFile="User.java" interface="false" size="18" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="84" invocations="305" avgMicrosecondsPerInvocation="276" maxMicrosecondsPerInvocation="31432" standardDeviationMicrosecondsPerInvocation="1819"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="22" invocations="306" avgMicrosecondsPerInvocation="75" maxMicrosecondsPerInvocation="832" standardDeviationMicrosecondsPerInvocation="56"/>
-      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="12" invocations="273" avgMicrosecondsPerInvocation="46" maxMicrosecondsPerInvocation="4240" standardDeviationMicrosecondsPerInvocation="260"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="55" invocations="305" avgMicrosecondsPerInvocation="180" maxMicrosecondsPerInvocation="2871" standardDeviationMicrosecondsPerInvocation="344"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="22" invocations="306" avgMicrosecondsPerInvocation="73" maxMicrosecondsPerInvocation="153" standardDeviationMicrosecondsPerInvocation="31"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>

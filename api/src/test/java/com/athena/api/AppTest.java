@@ -1,4 +1,4 @@
-package org.service;
+package com.athena.api;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,0 +1,25 @@
+#surefire
+#Thu Feb 27 21:52:52 IST 2020
+testClassesDirectory=/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/target/test-classes
+classPathUrl.3=/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/service/target/service-0.0.1-SNAPSHOT.jar
+classPathUrl.2=/home/suresh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/target/classes
+reportsDirectory=/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/target/surefire-reports
+classPathUrl.0=/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/src/test/java
+surefireClassPathUrl.1=/home/suresh/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
+surefireClassPathUrl.0=/home/suresh/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.12.4/surefire-junit3-2.12.4.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+tc.0=org.dao.AppTest
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+runStatisticsFile=/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/.surefire-828BB868D084CDF5891D0D68675F0DC24F3AB494
+includes0=**/Test*.java
+childDelegation=false

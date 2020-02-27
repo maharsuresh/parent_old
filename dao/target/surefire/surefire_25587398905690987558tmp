@@ -1,0 +1,7 @@
+#surefire_2
+#Thu Feb 27 21:52:52 IST 2020
+sonar.login.token=--sonar-login-token\=d1a15fa44e6cca3fa7bca115d4dd8fea04032c07
+sonar.analyse.type=repo
+basedir=/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao
+user.dir=/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao
+localRepository=/home/suresh/.m2/repository
