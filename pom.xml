@@ -10,6 +10,7 @@
     <module>model</module>
     <module>service</module>
     <module>dao</module>
+    <module>api</module>
   </modules>
   
   
@@ -24,16 +25,16 @@
             </activation>
             <properties>
                 <!--common and repo-->
-                <sonar.analyse.type></sonar.analyse.type>
-                <sonar.login.token></sonar.login.token>
+                <sonar.analyse.type/>
+                <sonar.login.token/>
                 <!--Pr-->
-                <pr.current.branch></pr.current.branch>
-                <pr.base.branch></pr.base.branch>
-                <pr.key></pr.key>
-                <github.repo.slug></github.repo.slug>
+                <pr.current.branch/>
+                <pr.base.branch/>
+                <pr.key/>
+                <github.repo.slug/>
                 <!--branch-->
-                <current.branch></current.branch>
-                <target.branch></target.branch>
+                <current.branch/>
+                <target.branch/>
 
             </properties>
             <build>
