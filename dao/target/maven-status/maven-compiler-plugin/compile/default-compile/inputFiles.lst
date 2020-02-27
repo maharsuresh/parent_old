@@ -1,1 +1,7 @@
-/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/src/main/java/org/dao/App.java
+/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/src/main/java/com/athena/dao/ProductDO.java
+/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/src/main/java/com/athena/dao/ClientDO.java
+/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/src/main/java/com/athena/dao/UserDaoImpl.java
+/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/src/main/java/com/athena/dao/App.java
+/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/src/main/java/com/athena/dao/ProductDODummyImpl.java
+/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/src/main/java/com/athena/dao/CollateralDO.java
+/home/suresh/Documents/skm/sonar-jenkins/workspace/parent/dao/src/main/java/com/athena/dao/UserDao.java
